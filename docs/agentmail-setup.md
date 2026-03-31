@@ -25,3 +25,6 @@ AGENTMAIL_DISPLAY_NAME=Lisa Cloud
 - Ask Barbara before sending emails to customers.
 - Use full name `Lisa Cloud` in official email contexts.
 - Prefer documenting email-related workflows in German when they are intended for reuse.
+- Check the inbox every 30 minutes.
+- If an email appears to need a reply, prepare a draft and present it to Barbara for approval.
+- Do not send without Barbara's explicit OK.

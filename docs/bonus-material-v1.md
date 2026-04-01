@@ -144,10 +144,19 @@ Intern vorbereitet werden sollten dagegen bereits:
 - eine einfache Gestaltung als PDF-Bundle
 - eine klare Preislogik für späteren Test
 
+## Aktueller Arbeitsstand
+Die vier Bonusbausteine liegen jetzt bereits als eigenständige Markdown-Assets vor:
+- `docs/bonus-briefing-vorlage-v1.md`
+- `docs/bonus-7-tage-startplan-v1.md`
+- `docs/bonus-workflow-dokumentationsvorlage-v1.md`
+- `docs/bonus-freigabe-checkliste-v1.md`
+
+Damit ist die inhaltliche Basis für ein späteres PDF-Bundle oder eine simple Printable-Version vorbereitet.
+
 ## Nächste sinnvolle Arbeitsschritte
-- aus `docs/checklists-v1.md` die 4 Bonusbausteine als eigenständige Assets ableiten
-- grafisch einfache PDF-/Printable-Version andenken
+- die 4 Assets in eine grafisch einfache PDF-/Printable-Version überführen
 - prüfen, ob ein kleines Bundle eher Bonus, Upsell oder Lead-Magnet sein soll
+- Messaging entscheiden: öffentlich noch zurückhalten oder erste Bonus-Hinweise bereits testen
 
 ## Merksatz
 **Nicht mehr Material versprechen als nötig. Aber genug vorbereiten, damit der nächste Produkt-Schritt schnell und sauber gebaut werden kann.**

@@ -2,7 +2,7 @@
 
 ## Jetzt als Nächstes
 - Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
-- die 4 vorbereiteten Bonusbausteine aus `docs/bonus-material-v1.md` als einzelne Assets / Printable-Vorlagen ableiten
+- die 4 Bonus-Assets als PDF-/Printable-Bundle aufbereiten
 - Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen
 - `site/index.html` testweise deployen oder an einen echten Veröffentlichungsweg anschließen
 - sicheren Apache-/Certbot-Weg für `lisacloud.site` vorbereiten und erst nach aktivem DNS umsetzen (`docs/apache-certbot-setup-v1.md`)
@@ -12,6 +12,7 @@
 ## Gerade ergänzt
 - Kapitel 9 als ausformulierte Rohfassung ergänzt (`docs/chapters-09.md`)
 - Bonusmaterial als vorbereitete Ausbaupfade konkretisiert (`docs/bonus-material-v1.md`)
+- vier Bonus-Assets als eigenständige Dateien abgeleitet (`docs/bonus-briefing-vorlage-v1.md`, `docs/bonus-7-tage-startplan-v1.md`, `docs/bonus-workflow-dokumentationsvorlage-v1.md`, `docs/bonus-freigabe-checkliste-v1.md`)
 - aus `docs/waitlist-web-v1.html` ein direkt deploybares Static-Export-Ziel abgeleitet (`site/index.html`)
 - Deployment-Notiz für die statische V1-Seite ergänzt (`docs/deployment-static-v1.md`)
 - Repo mit `.gitignore` gegen versehentlich committe Schlüssel-/Zertifikatsdateien abgesichert

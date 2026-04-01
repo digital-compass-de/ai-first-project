@@ -16,6 +16,10 @@ Zentraler Projektort für Barbaras und Lisas erstes AI-gestütztes Produkt.
 - `docs/leseprobe-v1.md`
 - `docs/chapters-09.md`
 - `docs/bonus-material-v1.md`
+- `docs/bonus-briefing-vorlage-v1.md`
+- `docs/bonus-7-tage-startplan-v1.md`
+- `docs/bonus-workflow-dokumentationsvorlage-v1.md`
+- `docs/bonus-freigabe-checkliste-v1.md`
 - `docs/todo.md`
 
 ## Prinzip

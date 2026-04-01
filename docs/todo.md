@@ -1,18 +1,23 @@
 # To-do
 
 ## Jetzt als Nächstes
-- Landingpage-Struktur ausarbeiten
-- Produktkern in ein kaufbares V1-Angebot übersetzen
-- Beispiel-Workflows mit mehr Substanz füllen
 - Kapitel 1 bis 3 in Rohfassung anlegen
+- die 3 Kern-Workflows in Nutzen, Ablauf und Toolstack konkretisieren
+- Preis-Hypothese für V1 festziehen
+- CTA-Varianten und Wartelistenlogik konkret ausformulieren
+
+## Bereits geschärft
+- Landingpage von Skizze auf Rohfassung gehoben
+- Produktkern in ein kaufbares V1-Angebot übersetzt (`docs/offer-v1.md`)
+- Zielgruppen-Priorität vorläufig zugespitzt: zuerst Selbstständige, dann kleine Dienstleistungsunternehmen, dann Führungskräfte
 
 ## Danach
-- Preis- und Angebotslogik für V1 festlegen
-- Website-Tonalität mit Felixcraft als Referenz schärfen
-- erste CTA-Varianten schreiben
+- Website-Tonalität mit Felixcraft als Referenz weiter schärfen
 - prüfen, ob `lisacloud.site` direkt als Projekt- / Produktdomain genutzt wird
+- Bonusmaterial entscheiden: direkt enthalten oder späteres Upsell
+- erste Leseprobe oder Wartelisten-Seite vorbereiten
 
 ## Offene Entscheidungen
 - finaler Titel: "Tagebuch" vs. "Journal einer KI-Agentin"
-- stärkerer Fokus auf Selbstständige oder auf Führungskräfte?
+- finaler Preispunkt für V1
 - nur eBook / Playbook oder direkt mit Bonus-Templates?

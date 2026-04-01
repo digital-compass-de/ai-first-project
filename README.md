@@ -8,6 +8,8 @@ Zentraler Projektort für Barbaras und Lisas erstes AI-gestütztes Produkt.
 - `docs/offer-v1.md`
 - `docs/decision-brief-v1.md`
 - `docs/funnel-testplan-v1.md`
+- `docs/waitlist-onepage-v1.md`
+- `docs/waitlist-web-v1.html`
 - `docs/todo.md`
 
 ## Prinzip

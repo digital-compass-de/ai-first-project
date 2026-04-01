@@ -1,13 +1,14 @@
 # To-do
 
 ## Jetzt als Nächstes
-- aus der One-Page-Rohfassung eine echte veröffentlichungsfähige Web-Version ableiten
 - kleine Leseprobe definieren (z. B. Einleitung + Kapitel 1 oder ein Workflow-Ausschnitt)
 - Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
 - Messaging für Titel + Unterzeile auf Basis des Entscheidungsbriefs konsistent machen
+- aus `docs/waitlist-web-v1.html` eine echte Live-Seite oder ein statisches Export-Setup ableiten
 
 ## Gerade ergänzt
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
+- daraus eine einfache veröffentlichungsfähige Web-Version mit HTML/CSS gebaut (`docs/waitlist-web-v1.html`)
 - Kapitel 10 als Rohfassung ergänzt (`docs/chapters-10.md`)
 - Entscheidungsunterlage für Titel und Bonusmaterial ergänzt (`docs/decision-brief-v1.md`)
 - CTA- und Funnel-Reihenfolge als Mini-Testplan konkretisiert (`docs/funnel-testplan-v1.md`)

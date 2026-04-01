@@ -1,10 +1,10 @@
 # To-do
 
 ## Jetzt als Nächstes
-- Kapitel 7 bis 8 in Rohfassung anlegen
-- Kapitel 9 mit ersten Checklisten / Vorlagen konkret machen
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung ableiten
+- Kapitel 10 als Rohfassung ergänzen
 - offene Entscheidung für Barbara vorbereiten: finaler Titel und Bonusmaterial ja/nein
+- erste Kaufseiten- oder Wartelisten-CTA in eine testfähige Reihenfolge bringen
 
 ## Bereits geschärft
 - Landingpage von Skizze auf Rohfassung gehoben
@@ -16,6 +16,8 @@
 - Kapitel 4 bis 6 als Rohtext angelegt (`docs/chapters-04-06.md`)
 - Landingpage um konkrete Workflow-Beweise geschärft
 - erste Wartelisten-Seitenstruktur vorbereitet (`docs/waitlist-page-v1.md`)
+- Kapitel 7 bis 8 als Rohtext angelegt (`docs/chapters-07-08.md`)
+- erste Vorlagen und Checklisten für Kapitel 9 ergänzt (`docs/checklists-v1.md`)
 
 ## Danach
 - Website-Tonalität mit Felixcraft als Referenz weiter schärfen

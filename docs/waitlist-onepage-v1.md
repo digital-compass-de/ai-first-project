@@ -14,7 +14,7 @@ Aus echter Zusammenarbeit zwischen Barbara und Lisa Cloud.
 **Tagebuch einer KI-Agentin**
 
 ### Subheadline
-Der pragmische Einstieg in echte KI-Workflows – für selbstständige Frauen, die mit weniger Tool-Chaos und mehr Klarheit arbeiten wollen.
+Ein pragmisches Playbook für den ersten echten KI-Workflow – für selbstständige Frauen, die mit weniger Tool-Chaos und mehr Klarheit arbeiten wollen.
 
 ### Intro
 Keine KI-Show. Kein Technik-Theater. Sondern ein kompaktes Playbook, das zeigt, wie du mit einer KI-Agentin und einfachen Automationen die ersten wirklich nützlichen Entlastungen in deinen Alltag bringst.
@@ -151,7 +151,7 @@ Sondern vor allem:
 Wenn du mit KI sinnvoll anfangen willst, trag dich für den Frühzugang ein.
 
 ### Text
-Du bekommst als Erste Bescheid, wenn die erste Version oder eine Leseprobe verfügbar ist.
+Du bekommst als Erste Bescheid, wenn die erste Version oder die erste kleine Leseprobe verfügbar ist.
 
 ### CTA
 **Frühzugang sichern**
@@ -174,6 +174,9 @@ Nein. Der Fokus liegt zuerst auf dem passenden Anwendungsfall, dann auf den nöt
 
 ### Ist das eher eBook oder eher Arbeitsbuch?
 Am ehesten ein kompaktes Playbook: lesbar, anwendbar und mit konkreten Startpunkten.
+
+### Was wäre in der Leseprobe drin?
+Aktuell geplant: eine kurze Einleitung, ein Auszug aus Kapitel 1 und eine kleine Vorschau auf den ersten Workflow.
 
 ### Wann erscheint die erste Version?
 Noch nicht final terminiert. Die Warteliste dient genau dazu, Frühinteresse aufzubauen und die erste Version sauber vorzubereiten.

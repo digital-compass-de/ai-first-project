@@ -1,14 +1,16 @@
 # To-do
 
 ## Jetzt als Nächstes
-- kleine Leseprobe definieren (z. B. Einleitung + Kapitel 1 oder ein Workflow-Ausschnitt)
+- Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
 - Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
-- Messaging für Titel + Unterzeile auf Basis des Entscheidungsbriefs konsistent machen
+- Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen
 - aus `docs/waitlist-web-v1.html` eine echte Live-Seite oder ein statisches Export-Setup ableiten
 
 ## Gerade ergänzt
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
 - daraus eine einfache veröffentlichungsfähige Web-Version mit HTML/CSS gebaut (`docs/waitlist-web-v1.html`)
+- erste Leseprobe als eigenständige V1-Datei definiert (`docs/leseprobe-v1.md`)
+- Titel-/Unterzeilen-Messaging auf "pragmisches Playbook für den ersten echten KI-Workflow" enger ausgerichtet
 - Kapitel 10 als Rohfassung ergänzt (`docs/chapters-10.md`)
 - Entscheidungsunterlage für Titel und Bonusmaterial ergänzt (`docs/decision-brief-v1.md`)
 - CTA- und Funnel-Reihenfolge als Mini-Testplan konkretisiert (`docs/funnel-testplan-v1.md`)

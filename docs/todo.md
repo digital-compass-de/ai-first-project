@@ -1,10 +1,10 @@
 # To-do
 
 ## Jetzt als Nächstes
-- Kapitel 4 bis 6 in Rohfassung anlegen
-- aus `docs/workflows-v1.md` die stärksten Passagen in Landingpage und Outline zurückspiegeln
-- erste Wartelisten-Seite oder Leseprobe strukturell vorbereiten
-- offene Entscheidung vorbereiten: finaler Titel und Bonusmaterial ja/nein
+- Kapitel 7 bis 8 in Rohfassung anlegen
+- Kapitel 9 mit ersten Checklisten / Vorlagen konkret machen
+- aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung ableiten
+- offene Entscheidung für Barbara vorbereiten: finaler Titel und Bonusmaterial ja/nein
 
 ## Bereits geschärft
 - Landingpage von Skizze auf Rohfassung gehoben
@@ -13,6 +13,9 @@
 - Kapitel 1 bis 3 als Rohtext angelegt (`docs/chapters-01-03.md`)
 - drei Kern-Workflows mit Nutzen, Ablauf und Toolstack konkretisiert (`docs/workflows-v1.md`)
 - Preis- und CTA-Arbeitshypothese für V1 festgehalten (`docs/pricing-and-cta-v1.md`)
+- Kapitel 4 bis 6 als Rohtext angelegt (`docs/chapters-04-06.md`)
+- Landingpage um konkrete Workflow-Beweise geschärft
+- erste Wartelisten-Seitenstruktur vorbereitet (`docs/waitlist-page-v1.md`)
 
 ## Danach
 - Website-Tonalität mit Felixcraft als Referenz weiter schärfen

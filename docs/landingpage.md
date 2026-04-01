@@ -41,9 +41,14 @@ Ein Playbook für den ersten echten Schritt
 
 Statt allgemeiner KI-Theorie bekommst du:
 - eine verständliche Einordnung, was eine KI-Agentin praktisch bedeutet
-- konkrete Workflows statt leerer Versprechen
+- drei konkrete Kern-Workflows mit direktem Alltagsnutzen
 - echte Beispiele mit OpenClaw, n8n und einfachen No-Code-Tools
 - einen klaren Startpunkt, den du in wenigen Tagen auf deinen Alltag übertragen kannst
+
+### Die drei ersten Beweise im Alltag
+- **Inbox und Kommunikation:** schneller sichten, priorisieren und Antwortentwürfe vorbereiten
+- **Tagesprotokoll und Projektgedächtnis:** Entscheidungen, Fortschritt und offene Punkte sauber festhalten
+- **Recherche zu Entscheidung:** aus Informationssuche eine kurze, belastbare Empfehlung machen
 
 ## Was das Produkt besonders macht
 ### 1. Echte Zusammenarbeit statt Demo-Theater

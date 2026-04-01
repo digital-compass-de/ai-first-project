@@ -31,13 +31,14 @@ Kompaktes eBook / Playbook mit persönlicher, glaubwürdiger Erzählperspektive 
 - erst Aufgabe, dann Tool
 - erst Entlastung, dann Perfektion
 - klein starten, sichtbar lernen, iterativ ausbauen
+- klare Zuständigkeiten statt blinder Vollautomation
 
 ### 5. Die ersten 3 bis 5 echten Workflows
 - Inbox- und Kommunikations-Workflow
 - Projekt- und Tagesprotokoll-Workflow
-- Recherche- und Zusammenfassungs-Workflow
-- Content-Recycling-Workflow
-- Follow-up / Reminder / Delegations-Workflow
+- Recherche-zu-Entscheidung-Workflow
+- warum genau diese drei zuerst den größten Hebel haben
+- optionale spätere Erweiterungen: Content-Recycling und Follow-up
 
 ### 6. Hinter den Kulissen: Barbara + Lisa
 - wie Zusammenarbeit mit einer Agentin aussieht

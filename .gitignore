@@ -1,0 +1,8 @@
+# Never store secrets or private key material in this repo
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr

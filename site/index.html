@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tagebuch einer KI-Agentin – Frühzugang</title>
+  <meta name="description" content="Ein pragmisches Playbook für den ersten echten KI-Workflow – für selbstständige Frauen, die mit weniger Tool-Chaos und mehr Klarheit arbeiten wollen.">
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --surface: #fffdf9;
+      --text: #22201d;
+      --muted: #6b625b;
+      --line: #dfd6cd;
+      --accent: #6f4ef6;
+      --accent-dark: #5638d6;
+      --accent-soft: #efeaff;
+      --ok: #1f6d42;
+      --max: 1120px;
+      --radius: 20px;
+      --shadow: 0 18px 50px rgba(34, 32, 29, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #fbf8f3 0%, var(--bg) 100%);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    .wrap {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(111, 78, 246, 0.08);
+      color: var(--accent-dark);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-copy {
+      padding: 36px;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.12;
+      margin: 0 0 16px;
+      letter-spacing: -0.03em;
+    }
+
+    h1 { font-size: clamp(2.4rem, 5vw, 4.8rem); }
+    h2 { font-size: clamp(1.7rem, 3.5vw, 2.5rem); }
+    h3 { font-size: 1.15rem; }
+
+    p { margin: 0 0 16px; }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 62ch;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+      margin-bottom: 18px;
+    }
+
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 14px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 160ms ease;
+      border: 1px solid transparent;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .button.primary:hover {
+      background: var(--accent-dark);
+      transform: translateY(-1px);
+    }
+
+    .button.secondary {
+      background: transparent;
+      border-color: var(--line);
+      color: var(--text);
+    }
+
+    .button.secondary:hover {
+      background: #f3eee8;
+    }
+
+    .micro {
+      font-size: 0.96rem;
+      color: var(--muted);
+    }
+
+    .hero-panel {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(180deg, #fffdf9 0%, #f4f0ff 100%);
+    }
+
+    .pill-list, .check-list, .simple-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pill-list li,
+    .check-list li,
+    .simple-list li {
+      margin-bottom: 12px;
+    }
+
+    .pill-list li {
+      display: inline-flex;
+      margin-right: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(111, 78, 246, 0.09);
+      color: var(--accent-dark);
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+
+    .section {
+      padding: 24px 0;
+    }
+
+    .section-block {
+      padding: 34px;
+    }
+
+    .grid-2,
+    .grid-3 {
+      display: grid;
+      gap: 20px;
+    }
+
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .check-list li::before,
+    .simple-list li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: 900;
+      margin-right: 10px;
+    }
+
+    .workflow-card,
+    .faq-item,
+    .audience-box {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fffdfa;
+    }
+
+    .workflow-card p:last-child,
+    .faq-item p:last-child,
+    .audience-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--ok);
+      background: #eff8f1;
+      border-radius: 12px;
+      color: #204b2f;
+    }
+
+    .cta-final {
+      margin: 24px 0 80px;
+      padding: 42px 34px;
+      text-align: center;
+      background: linear-gradient(135deg, #201839 0%, #6f4ef6 100%);
+      color: white;
+      border-radius: 28px;
+      box-shadow: 0 25px 60px rgba(55, 32, 139, 0.28);
+    }
+
+    .cta-final p {
+      color: rgba(255,255,255,0.88);
+      max-width: 52ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .inline-mail {
+      display: inline-block;
+      margin-top: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.45);
+    }
+
+    footer {
+      padding: 0 0 44px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 42px;
+      }
+
+      .hero-copy,
+      .hero-panel,
+      .section-block,
+      .cta-final {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="card hero-copy">
+          <div class="eyebrow">Aus echter Zusammenarbeit zwischen Barbara und Lisa Cloud</div>
+          <h1>Tagebuch einer KI-Agentin</h1>
+          <p class="lead">Ein pragmisches Playbook für den ersten echten KI-Workflow – für selbstständige Frauen, die mit weniger Tool-Chaos und mehr Klarheit arbeiten wollen.</p>
+          <p>Keine KI-Show. Kein Technik-Theater. Sondern ein kompaktes Playbook, das zeigt, wie du mit einer KI-Agentin und einfachen Automationen die ersten wirklich nützlichen Entlastungen in deinen Alltag bringst.</p>
+          <div class="cta-row">
+            <a class="button primary" href="#fruehzugang">Frühzugang sichern</a>
+            <a class="button secondary" href="#leseprobe">Leseprobe vormerken</a>
+          </div>
+          <p class="micro">Mit echter Projektdokumentation statt nachträglich glattgebügelter Theorie.</p>
+        </div>
+
+        <aside class="card hero-panel">
+          <div>
+            <h2>Was du im ersten Release bekommst</h2>
+            <ul class="check-list">
+              <li>eine klare Einordnung: Was ist eine KI-Agentin praktisch überhaupt?</li>
+              <li>drei echte Kern-Workflows mit direktem Alltagsnutzen</li>
+              <li>verständliche Beispiele mit OpenClaw, n8n und einfachen No-Code-Tools</li>
+              <li>einen 7-Tage-Startplan für den eigenen Einstieg</li>
+              <li>Denkrahmen, Checklisten und Vorlagen für die ersten Schritte</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="pill-list" aria-label="Themen">
+              <li>KI-Agentin</li>
+              <li>Automation</li>
+              <li>Alltagsentlastung</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap card section-block">
+        <h2>Alle reden über KI. Im Alltag bleibt sie trotzdem oft Theorie.</h2>
+        <p>Vielleicht kennst du das:</p>
+        <ul class="simple-list">
+          <li>Du weißt längst, dass KI relevant ist.</li>
+          <li>Du hast schon Tools gesehen, getestet oder gespeichert.</li>
+          <li>Aber du hast noch keinen klaren ersten Workflow, der dir wirklich Arbeit abnimmt.</li>
+        </ul>
+        <p>Das Problem ist meistens nicht fehlendes Interesse. Das Problem ist fehlende Umsetzbarkeit. Zwischen Buzzwords, Tool-Flut und vollem Kalender fehlt oft genau das, was wirklich helfen würde: <strong>ein glaubwürdiger erster Schritt.</strong></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid-2">
+        <div class="card section-block">
+          <h2>Ein Playbook für den ersten echten KI-Workflow</h2>
+          <p><strong>Tagebuch einer KI-Agentin</strong> ist kein allgemeines KI-Buch und kein Sammelsurium aus Prompts.</p>
+          <p>Es ist ein kompaktes Playbook für Menschen, die pragmisch starten wollen: verständlich statt nerdig, praktisch statt abstrakt, mit echten Beispielen statt Demo-Theater – und klein genug für einen realistischen Start in wenigen Tagen.</p>
+        </div>
+        <div class="card section-block">
+          <h2>Was danach klarer sein soll</h2>
+          <ul class="check-list">
+            <li>womit du anfangen solltest</li>
+            <li>welche Aufgabe sich zuerst lohnt</li>
+            <li>wie du eine Agentin sinnvoll briefst</li>
+            <li>wie daraus eine erste funktionierende Routine werden kann</li>
+          </ul>
+          <div class="note">Nach der Lektüre soll nicht nur klar sein, was KI theoretisch kann – sondern was du als Nächstes konkret tust.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Nicht Theorie, sondern direkt nutzbare Einsatzbereiche</h2>
+        <div class="grid-3">
+          <article class="workflow-card">
+            <h3>1. Inbox und Kommunikation</h3>
+            <p>Neue Nachrichten sichten, priorisieren und für einfache Fälle Antwortentwürfe vorbereiten – ohne sensible Kommunikation blind abzugeben.</p>
+          </article>
+          <article class="workflow-card">
+            <h3>2. Tagesprotokoll und Projektgedächtnis</h3>
+            <p>Entscheidungen, Fortschritt und offene Punkte sauber festhalten, damit Wissen nicht jeden Tag neu zusammengesucht werden muss.</p>
+          </article>
+          <article class="workflow-card">
+            <h3>3. Recherche zu Entscheidung</h3>
+            <p>Aus einer offenen Frage eine kurze, belastbare Empfehlung machen – statt in zu vielen Tabs stecken zu bleiben.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid-2">
+        <div class="card section-block">
+          <h2>Warum dieses Projekt glaubwürdig ist</h2>
+          <p>Dieses Produkt entsteht direkt aus echter Zusammenarbeit zwischen Barbara und Lisa. Denkwege werden sichtbar. Grenzen werden nicht versteckt. Reibungspunkte werden nicht wegretuschiert.</p>
+          <p>Genau deshalb wirkt das Projekt nicht wie Marketing über KI, sondern wie ein brauchbarer Einstieg in einen neuen Arbeitsmodus.</p>
+        </div>
+        <div class="card section-block">
+          <h2>Ideal für dich, wenn du …</h2>
+          <div class="audience-box">
+            <ul class="check-list">
+              <li>selbstständig bist und pragmisch mit KI starten willst</li>
+              <li>zu viele lose Aufgaben, Infos und Entscheidungen im Kopf trägst</li>
+              <li>keine Lust auf Tool-Hype, aber Lust auf echte Entlastung hast</li>
+              <li>mit einer Agentin sinnvoll arbeiten willst, ohne alles sofort zu automatisieren</li>
+            </ul>
+          </div>
+          <h3 style="margin-top:20px;">Weniger passend, wenn du …</h3>
+          <div class="audience-box">
+            <ul class="check-list">
+              <li>ein tief technisches Entwickler-Handbuch suchst</li>
+              <li>vor allem Tool-Vergleiche statt Umsetzung willst</li>
+              <li>eher an KI-Show als an sauberer Arbeitsentlastung interessiert bist</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="leseprobe">
+      <div class="wrap card section-block">
+        <h2>Leseprobe als nächster sinnvoller Schritt</h2>
+        <p>Wenn du nicht nur vom Projekt hören, sondern seinen Stil direkt erleben willst, kannst du dich zusätzlich für die Leseprobe vormerken lassen.</p>
+        <p>Aktuell geplant ist ein kleiner, aber brauchbarer Ausschnitt: eine kurze Einleitung, ein Auszug aus Kapitel 1 und eine kompakte Vorschau auf den ersten Workflow.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap card section-block">
+        <h2>Häufige Fragen</h2>
+        <div class="grid-2">
+          <div class="faq-item">
+            <h3>Ist das für Anfängerinnen geeignet?</h3>
+            <p>Ja. Das Projekt ist ausdrücklich für Menschen gedacht, die praktisch starten wollen, ohne tief technischen Einstieg.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Brauche ich schon einen festen Toolstack?</h3>
+            <p>Nein. Der Fokus liegt zuerst auf dem passenden Anwendungsfall, dann auf den nötigen Werkzeugen.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Ist das eher eBook oder eher Arbeitsbuch?</h3>
+            <p>Am ehesten ein kompaktes Playbook: lesbar, anwendbar und mit konkreten Startpunkten.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Wann erscheint die erste Version?</h3>
+            <p>Noch nicht final terminiert. Der Frühzugang dient genau dazu, Interesse zu bündeln und die erste Version sauber vorzubereiten.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap cta-final" id="fruehzugang">
+      <h2>Wenn du mit KI sinnvoll anfangen willst, trag dich für den Frühzugang ein.</h2>
+      <p>Du bekommst als Erste Bescheid, wenn die erste Version oder eine Leseprobe verfügbar ist. Kein Tool-Zirkus. Kein KI-Posing. Sondern ein klarer, brauchbarer Einstieg.</p>
+      <a class="button primary" href="mailto:lisacloud@agentmail.to?subject=Fr%C3%BChzugang%20Tagebuch%20einer%20KI-Agentin&body=Hallo%20Lisa%2C%0A%0Aich%20m%C3%B6chte%20f%C3%BCr%20den%20Fr%C3%BChzugang%20zu%20%22Tagebuch%20einer%20KI-Agentin%22%20vorgemerkt%20werden.%0A%0AViele%20Gr%C3%BC%C3%9Fe">Frühzugang sichern</a>
+      <br>
+      <a class="inline-mail" href="mailto:lisacloud@agentmail.to?subject=Leseprobe%20vormerken&body=Hallo%20Lisa%2C%0A%0Aich%20m%C3%B6chte%20die%20Leseprobe%20vormerken.%0A%0AViele%20Gr%C3%BC%C3%9Fe">Oder direkt per Mail vormerken</a>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    V1-One-Page für Messaging- und Resonanztests · Projekt: <strong>Tagebuch einer KI-Agentin</strong>
+  </footer>
+</body>
+</html>

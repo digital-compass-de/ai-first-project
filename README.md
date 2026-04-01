@@ -10,6 +10,9 @@ Zentraler Projektort für Barbaras und Lisas erstes AI-gestütztes Produkt.
 - `docs/funnel-testplan-v1.md`
 - `docs/waitlist-onepage-v1.md`
 - `docs/waitlist-web-v1.html`
+- `site/index.html`
+- `docs/deployment-static-v1.md`
+- `docs/apache-certbot-setup-v1.md`
 - `docs/leseprobe-v1.md`
 - `docs/todo.md`
 

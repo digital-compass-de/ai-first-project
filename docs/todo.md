@@ -4,9 +4,16 @@
 - Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
 - Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
 - Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen
-- aus `docs/waitlist-web-v1.html` eine echte Live-Seite oder ein statisches Export-Setup ableiten
+- `site/index.html` testweise deployen oder an einen echten Veröffentlichungsweg anschließen
+- sicheren Apache-/Certbot-Weg für `lisacloud.site` vorbereiten und erst nach aktivem DNS umsetzen (`docs/apache-certbot-setup-v1.md`)
+- Mailto-CTA später durch leichtes Formular / Waitlist-Handling ersetzen
 
 ## Gerade ergänzt
+- aus `docs/waitlist-web-v1.html` ein direkt deploybares Static-Export-Ziel abgeleitet (`site/index.html`)
+- Deployment-Notiz für die statische V1-Seite ergänzt (`docs/deployment-static-v1.md`)
+- Repo mit `.gitignore` gegen versehentlich committe Schlüssel-/Zertifikatsdateien abgesichert
+- versehentlich eingecheckten privaten Schlüssel aus dem Arbeitsstand entfernt (`docs/ssl-zertifikat/_.lisacloud.site_private_key.key`)
+
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
 - daraus eine einfache veröffentlichungsfähige Web-Version mit HTML/CSS gebaut (`docs/waitlist-web-v1.html`)
 - erste Leseprobe als eigenständige V1-Datei definiert (`docs/leseprobe-v1.md`)

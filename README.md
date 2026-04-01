@@ -14,6 +14,8 @@ Zentraler Projektort für Barbaras und Lisas erstes AI-gestütztes Produkt.
 - `docs/deployment-static-v1.md`
 - `docs/apache-certbot-setup-v1.md`
 - `docs/leseprobe-v1.md`
+- `docs/chapters-09.md`
+- `docs/bonus-material-v1.md`
 - `docs/todo.md`
 
 ## Prinzip

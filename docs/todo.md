@@ -2,17 +2,21 @@
 
 ## Jetzt als Nächstes
 - Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
-- Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
+- die 4 vorbereiteten Bonusbausteine aus `docs/bonus-material-v1.md` als einzelne Assets / Printable-Vorlagen ableiten
 - Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen
 - `site/index.html` testweise deployen oder an einen echten Veröffentlichungsweg anschließen
 - sicheren Apache-/Certbot-Weg für `lisacloud.site` vorbereiten und erst nach aktivem DNS umsetzen (`docs/apache-certbot-setup-v1.md`)
+- GitGuardian-Hinweis verfolgen und sicherstellen, dass kein kompromittierter Schlüssel produktiv genutzt wird
 - Mailto-CTA später durch leichtes Formular / Waitlist-Handling ersetzen
 
 ## Gerade ergänzt
+- Kapitel 9 als ausformulierte Rohfassung ergänzt (`docs/chapters-09.md`)
+- Bonusmaterial als vorbereitete Ausbaupfade konkretisiert (`docs/bonus-material-v1.md`)
 - aus `docs/waitlist-web-v1.html` ein direkt deploybares Static-Export-Ziel abgeleitet (`site/index.html`)
 - Deployment-Notiz für die statische V1-Seite ergänzt (`docs/deployment-static-v1.md`)
 - Repo mit `.gitignore` gegen versehentlich committe Schlüssel-/Zertifikatsdateien abgesichert
 - versehentlich eingecheckten privaten Schlüssel aus dem Arbeitsstand entfernt (`docs/ssl-zertifikat/_.lisacloud.site_private_key.key`)
+- neue externe Sicherheitsmeldung von GitGuardian zum exponierten RSA-Private-Key im öffentlichen Repo im Postfach bestätigt
 
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
 - daraus eine einfache veröffentlichungsfähige Web-Version mit HTML/CSS gebaut (`docs/waitlist-web-v1.html`)

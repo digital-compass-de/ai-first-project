@@ -2,8 +2,8 @@
 
 ## Jetzt als Nächstes
 - Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
-- die 4 Bonus-Assets als PDF-/Printable-Bundle aufbereiten
-- Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen
+- aus `docs/bonus-bundle-printable-v1.md` eine gemeinsame HTML- oder PDF-Fassung ableiten
+- Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen und später nochmals gegen echte Resonanz prüfen
 - `site/index.html` testweise deployen oder an einen echten Veröffentlichungsweg anschließen
 - sicheren Apache-/Certbot-Weg für `lisacloud.site` vorbereiten und erst nach aktivem DNS umsetzen (`docs/apache-certbot-setup-v1.md`)
 - GitGuardian-Hinweis verfolgen und sicherstellen, dass kein kompromittierter Schlüssel produktiv genutzt wird
@@ -13,6 +13,8 @@
 - Kapitel 9 als ausformulierte Rohfassung ergänzt (`docs/chapters-09.md`)
 - Bonusmaterial als vorbereitete Ausbaupfade konkretisiert (`docs/bonus-material-v1.md`)
 - vier Bonus-Assets als eigenständige Dateien abgeleitet (`docs/bonus-briefing-vorlage-v1.md`, `docs/bonus-7-tage-startplan-v1.md`, `docs/bonus-workflow-dokumentationsvorlage-v1.md`, `docs/bonus-freigabe-checkliste-v1.md`)
+- Printable-/Bundle-Struktur für die 4 Bonus-Assets ergänzt (`docs/bonus-bundle-printable-v1.md`)
+- One-Page-Messaging leicht bereinigt, damit Bonusmaterial intern vorbereitet bleibt, öffentlich aber noch nicht zu früh fest versprochen wird
 - aus `docs/waitlist-web-v1.html` ein direkt deploybares Static-Export-Ziel abgeleitet (`site/index.html`)
 - Deployment-Notiz für die statische V1-Seite ergänzt (`docs/deployment-static-v1.md`)
 - Repo mit `.gitignore` gegen versehentlich committe Schlüssel-/Zertifikatsdateien abgesichert

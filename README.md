@@ -20,6 +20,7 @@ Zentraler Projektort für Barbaras und Lisas erstes AI-gestütztes Produkt.
 - `docs/bonus-7-tage-startplan-v1.md`
 - `docs/bonus-workflow-dokumentationsvorlage-v1.md`
 - `docs/bonus-freigabe-checkliste-v1.md`
+- `docs/bonus-bundle-printable-v1.md`
 - `docs/todo.md`
 
 ## Prinzip

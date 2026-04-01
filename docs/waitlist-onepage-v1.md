@@ -73,7 +73,7 @@ Was im ersten Release drin ist
 - eine klare Einordnung: Was ist eine KI-Agentin praktisch überhaupt?
 - drei echte Kern-Workflows mit direktem Alltagsnutzen
 - verständliche Beispiele mit OpenClaw, n8n und einfachen No-Code-Tools
-- ein 7-Tage-Startplan für den eigenen Einstieg
+- ein kompakter Einstieg mit klaren nächsten Schritten statt Tool-Overload
 - Denkrahmen, Checklisten und Vorlagen für die ersten Schritte
 
 ---
@@ -152,6 +152,8 @@ Wenn du mit KI sinnvoll anfangen willst, trag dich für den Frühzugang ein.
 
 ### Text
 Du bekommst als Erste Bescheid, wenn die erste Version oder die erste kleine Leseprobe verfügbar ist.
+
+Bonusmaterial wie Startplan oder zusätzliche Vorlagen wird intern vorbereitet, aber öffentlich bewusst noch nicht fest versprochen.
 
 ### CTA
 **Frühzugang sichern**

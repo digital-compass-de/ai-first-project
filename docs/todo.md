@@ -1,10 +1,14 @@
 # To-do
 
 ## Jetzt als Nächstes
-- aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung ableiten
-- Kapitel 10 als Rohfassung ergänzen
 - offene Entscheidung für Barbara vorbereiten: finaler Titel und Bonusmaterial ja/nein
-- erste Kaufseiten- oder Wartelisten-CTA in eine testfähige Reihenfolge bringen
+- CTA-Reihenfolge für Warteliste vs. Leseprobe vs. spätere Kaufseite als Mini-Testplan schärfen
+- Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
+- aus der One-Page-Rohfassung eine echte veröffentlichungsfähige Web-Version ableiten
+
+## Gerade ergänzt
+- aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
+- Kapitel 10 als Rohfassung ergänzt (`docs/chapters-10.md`)
 
 ## Bereits geschärft
 - Landingpage von Skizze auf Rohfassung gehoben

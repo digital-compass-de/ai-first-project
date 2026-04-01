@@ -1,14 +1,16 @@
 # To-do
 
 ## Jetzt als Nächstes
-- offene Entscheidung für Barbara vorbereiten: finaler Titel und Bonusmaterial ja/nein
-- CTA-Reihenfolge für Warteliste vs. Leseprobe vs. spätere Kaufseite als Mini-Testplan schärfen
-- Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
 - aus der One-Page-Rohfassung eine echte veröffentlichungsfähige Web-Version ableiten
+- kleine Leseprobe definieren (z. B. Einleitung + Kapitel 1 oder ein Workflow-Ausschnitt)
+- Kapitel 9 und 10 ggf. zu einer finaleren Endsektion zusammenziehen
+- Messaging für Titel + Unterzeile auf Basis des Entscheidungsbriefs konsistent machen
 
 ## Gerade ergänzt
 - aus `docs/waitlist-page-v1.md` eine echte erste One-Page-Fassung abgeleitet (`docs/waitlist-onepage-v1.md`)
 - Kapitel 10 als Rohfassung ergänzt (`docs/chapters-10.md`)
+- Entscheidungsunterlage für Titel und Bonusmaterial ergänzt (`docs/decision-brief-v1.md`)
+- CTA- und Funnel-Reihenfolge als Mini-Testplan konkretisiert (`docs/funnel-testplan-v1.md`)
 
 ## Bereits geschärft
 - Landingpage von Skizze auf Rohfassung gehoben

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bonus-Bundle — Erste Vorlagen für deinen KI-Workflow</title>
+  <style>
+    @page { margin: 2cm; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 10.5pt;
+      line-height: 1.55;
+      color: #1a1a1a;
+      max-width: 21cm;
+      margin: 0 auto;
+      padding: 2cm;
+    }
+    .cover {
+      text-align: center;
+      padding: 3cm 0;
+      border-bottom: 2px solid #c9a66b;
+      margin-bottom: 1.5cm;
+    }
+    .cover h1 {
+      font-size: 20pt;
+      font-weight: 400;
+      margin-bottom: 0.3cm;
+    }
+    .cover .subtitle {
+      font-size: 11pt;
+      color: #666;
+      font-style: italic;
+    }
+    .cover .emoji {
+      font-size: 36pt;
+      margin-bottom: 0.8cm;
+    }
+    .intro {
+      background: #f8f6f2;
+      padding: 0.8cm;
+      margin-bottom: 1cm;
+      border-left: 3px solid #c9a66b;
+    }
+    .module {
+      margin-bottom: 1.2cm;
+      page-break-inside: avoid;
+    }
+    .module h2 {
+      font-size: 12pt;
+      font-weight: 600;
+      margin-bottom: 0.4cm;
+      color: #2c2c2c;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2cm;
+    }
+    .module h3 {
+      font-size: 10.5pt;
+      font-weight: 600;
+      margin: 0.5cm 0 0.3cm 0;
+      color: #444;
+    }
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0.3cm 0;
+    }
+    .checklist li {
+      padding-left: 1.2cm;
+      position: relative;
+      margin-bottom: 0.2cm;
+    }
+    .checklist li::before {
+      content: "☐";
+      position: absolute;
+      left: 0;
+      color: #888;
+    }
+    .field {
+      border-bottom: 1px solid #ccc;
+      min-height: 0.8cm;
+      margin: 0.2cm 0;
+    }
+    .field-label {
+      font-size: 9pt;
+      color: #666;
+      margin-top: 0.3cm;
+    }
+    .box {
+      border: 1px solid #ddd;
+      padding: 0.5cm;
+      margin: 0.3cm 0;
+      background: #fafafa;
+    }
+    .footer {
+      margin-top: 1.5cm;
+      padding-top: 0.5cm;
+      border-top: 1px solid #ddd;
+      font-size: 9pt;
+      color: #888;
+      text-align: center;
+    }
+    .page-break {
+      page-break-before: always;
+    }
+    @media print {
+      body { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="emoji">📋</div>
+    <h1>Bonus-Bundle</h1>
+    <div class="subtitle">Erste Vorlagen für deinen KI-Workflow</div>
+    <div style="margin-top:1cm;font-size:10pt;color:#888;">Ergänzung zu »Tagebuch einer KI-Agentin«</div>
+  </div>
+
+  <div class="intro">
+    <strong>Wie dieses Bundle gedacht ist</strong><br/>
+    Diese Vorlagen sind als Arbeitsmaterial konzipiert — nicht als Theorie-Teil. Du kannst sie direkt anpassen, ausdrucken oder digital ausfüllen. Fange nicht mit allem auf einmal an. Ein erster echter Workflow reicht.
+  </div>
+
+  <div class="module">
+    <h2>1. Briefing-Vorlage für deine Agentin</h2>
+    <p>Ein klares Briefing spart spätere Rückfragen und Korrekturschleifen.</p>
+    
+    <div class="field-label">Aufgabe (was soll erledigt werden?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Ziel (was ist das gewünschte Ergebnis?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Regeln & Vorgaben (Format, Ton, Länge, Beispiele)</div>
+    <div class="field"></div>
+    <div class="field"></div>
+    
+    <div class="field-label">Grenzen (was soll vermieden werden?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Freigaben (was darf die Agentin entscheiden?)</div>
+    <div class="field"></div>
+  </div>
+
+  <div class="module page-break">
+    <h2>2. 7-Tage-Startplan</h2>
+    <p>Ein erster Workflow entsteht Schritt für Schritt — nicht alles auf einmal.</p>
+    
+    <div class="box">
+      <strong>Startdatum:</strong> <span style="border-bottom:1px solid #999;min-width:3cm;display:inline-block;">&nbsp;</span>
+    </div>
+
+    <h3>Tag 1 — Eine Aufgabe wählen</h3>
+    <ul class="checklist">
+      <li>Ich habe eine wiederkehrende Aufgabe identifiziert</li>
+      <li>Ich habe notiert, was mich daran stört</li>
+      <li>Ich habe das Ziel in einem Satz formuliert</li>
+    </ul>
+
+    <h3>Tag 2 — Ersten Testlauf planen</h3>
+    <ul class="checklist">
+      <li>Ich habe den Eingabe-Output-Ablauf skizziert</li>
+      <li>Ich habe ein konkretes Beispiel ausgewählt</li>
+      <li>Ich habe mir Zeit für den Test blockiert</li>
+    </ul>
+
+    <h3>Tag 3 — Test durchführen</h3>
+    <ul class="checklist">
+      <li>Ich habe die Aufgabe an die Agentin übergeben</li>
+      <li>Ich habe das Ergebnis mit meinen Erwartungen verglichen</li>
+      <li>Ich habe notiert, was funktioniert hat und was nicht</li>
+    </ul>
+
+    <h3>Tag 4 — Anpassen</h3>
+    <ul class="checklist">
+      <li>Ich habe das Briefing basierend auf dem Test verbessert</li>
+      <li>Ich habe klare Regeln oder Beispiele ergänzt</li>
+      <li>Ich habe neue Grenzen definiert, falls nötig</li>
+    </ul>
+
+    <h3>Tag 5 — Wiederholen</h3>
+    <ul class="checklist">
+      <li>Ich habe den verbesserten Workflow erneut getestet</li>
+      <li>Ich habe dokumentiert, was jetzt besser läuft</li>
+      <li>Ich habe entschieden, ob der Workflow stabil genug ist</li>
+    </ul>
+
+    <h3>Tag 6 — Einbauen</h3>
+    <ul class="checklist">
+      <li>Ich habe festgelegt, wann der Workflow regelmäßig läuft</li>
+      <li>Ich habe einen Auslöser definiert (Zeit, Ereignis, Bedingung)</li>
+      <li>Ich habe mir einen Erinnerungsmechanismus gesetzt</li>
+    </ul>
+
+    <h3>Tag 7 — Review</h3>
+    <ul class="checklist">
+      <li>Ich habe die Woche retrospektiv betrachtet</li>
+      <li>Ich habe notiert, was ich beim nächsten Workflow anders mache</li>
+      <li>Ich habe den Workflow in meine Dokumentation aufgenommen</li>
+    </ul>
+  </div>
+
+  <div class="module page-break">
+    <h2>3. Workflow-Dokumentationsvorlage</h2>
+    <p>Jeder etablierte Workflow sollte minimal dokumentiert sein — für dich selbst und für mögliche Übergaben.</p>
+    
+    <div class="field-label">Workflow-Name</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Zweck (was wird erreicht?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Auslöser (wann startet der Workflow?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Eingabe (was wird benötigt?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Ablauf (Schritt für Schritt)</div>
+    <div class="field"></div>
+    <div class="field"></div>
+    <div class="field"></div>
+    
+    <div class="field-label">Ausgabe (was entsteht am Ende?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Toolstack (welche Tools sind involviert?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Freigabepunkte (was braucht menschliche Kontrolle?)</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Bekannte Risiken / Grenzen</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Erkenntnisse / Learnings</div>
+    <div class="field"></div>
+  </div>
+
+  <div class="module page-break">
+    <h2>4. Freigabe-Checkliste für sensible Kommunikation</h2>
+    <p>Vor dem Versand oder der Veröffentlichung: ein schneller Sicherheitscheck.</p>
+    
+    <div class="box">
+      <strong>Dokument / Nachricht:</strong> <span style="border-bottom:1px solid #999;min-width:6cm;display:inline-block;">&nbsp;</span><br/>
+      <strong>Datum:</strong> <span style="border-bottom:1px solid #999;min-width:3cm;display:inline-block;">&nbsp;</span>
+    </div>
+
+    <h3>Inhaltliche Prüfung</h3>
+    <ul class="checklist">
+      <li>Fakten sind korrekt und aktuell</li>
+      <li>Zahlen, Daten, Namen wurden geprüft</li>
+      <li>Aussagen sind nicht überzogen oder irreführend</li>
+      <li>Der Ton passt zum Kontext und Empfänger</li>
+    </ul>
+
+    <h3>Datenschutz & Sicherheit</h3>
+    <ul class="checklist">
+      <li>Keine Passwörter, API-Keys oder Zugangsdaten enthalten</li>
+      <li>Keine internen Server-Adressen oder IPs</li>
+      <li>Keine personenbezogenen Daten ohne Berechtigung</li>
+      <li>Vertrauliche Informationen sind angemessen gekennzeichnet</li>
+    </ul>
+
+    <h3>Freigabe</h3>
+    <ul class="checklist">
+      <li>Ich habe das Dokument nochmals selbst gelesen</li>
+      <li>Bei Zweifeln: Rückfrage eingeholt</li>
+      <li>Freigabe durch berechtigte Person erfolgt</li>
+    </ul>
+
+    <div class="field-label" style="margin-top:0.5cm;">Geprüft von</div>
+    <div class="field"></div>
+    
+    <div class="field-label">Freigegeben am</div>
+    <div class="field"></div>
+  </div>
+
+  <div class="module" style="text-align:center;margin-top:2cm;padding:1cm;background:#f8f6f2;">
+    <h2>Nächster Schritt</h2>
+    <p>Wähle eine Vorlage. Fülle sie für deinen ersten Workflow aus. Wiederhole in einer Woche.</p>
+    <p style="margin-top:0.5cm;"><strong>Frühzugang zum vollständigen Playbook:</strong><br/>lisacloud@agentmail.to</p>
+  </div>
+
+  <div class="footer">
+    © 2026 Lisa Cloud — Bonus-Bundle zu »Tagebuch einer KI-Agentin«<br/>
+    Diese Vorlagen dürfen für den persönlichen Gebrauch angepasst und vervielfältigt werden.
+  </div>
+</body>
+</html>

@@ -1,15 +1,22 @@
 # To-do
 
 ## Jetzt als Nächstes
-- Leseprobe als PDF-/Download-Stück ausformulieren oder gestalten (`docs/leseprobe-v1.md` als Basis)
-- aus `docs/bonus-bundle-printable-v1.md` eine gemeinsame HTML- oder PDF-Fassung ableiten
 - Web-/Seiten-Messaging auf die neue Kernunterzeile konsistent nachziehen und später nochmals gegen echte Resonanz prüfen
 - `site/index.html` testweise deployen oder an einen echten Veröffentlichungsweg anschließen
 - sicheren Apache-/Certbot-Weg für `lisacloud.site` vorbereiten und erst nach aktivem DNS umsetzen (`docs/apache-certbot-setup-v1.md`)
 - GitGuardian-Hinweis verfolgen und sicherstellen, dass kein kompromittierter Schlüssel produktiv genutzt wird
 - Mailto-CTA später durch leichtes Formular / Waitlist-Handling ersetzen
+- Bonus-Bundle als PDF exportieren (aus `docs/bonus-bundle-v1.html`)
+- Leseprobe als PDF exportieren (aus `docs/leseprobe-v1.html`)
 
-## Gerade ergänzt
+## Gerade ergänzt (2026-04-02)
+- Tagesprotokoll für 2026-04-02 angelegt (`protokolle/2026-04-02.md`)
+- Leseprobe als druckbare HTML-Version erstellt (`docs/leseprobe-v1.html`)
+- Bonus-Bundle als druckbare HTML-Version mit allen 4 Vorlagen erstellt (`docs/bonus-bundle-v1.html`)
+- Neue E-Mail von Barbara verarbeitet: Arbeitszeiten 10:00–14:00, tägliches Briefing-Protokoll
+- AgentMail-Check durchgeführt, keine weiteren neuen Nachrichten
+
+## Gerade ergänzt (2026-04-01)
 - Kapitel 9 als ausformulierte Rohfassung ergänzt (`docs/chapters-09.md`)
 - Bonusmaterial als vorbereitete Ausbaupfade konkretisiert (`docs/bonus-material-v1.md`)
 - vier Bonus-Assets als eigenständige Dateien abgeleitet (`docs/bonus-briefing-vorlage-v1.md`, `docs/bonus-7-tage-startplan-v1.md`, `docs/bonus-workflow-dokumentationsvorlage-v1.md`, `docs/bonus-freigabe-checkliste-v1.md`)

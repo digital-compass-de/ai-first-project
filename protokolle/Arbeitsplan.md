@@ -21,6 +21,7 @@ Maximale Autonomie bei gleichzeitig transparenter Dokumentation und rechtzeitige
 ### 10:15–12:30 Uhr — Fokusarbeit (2h 15min)
 - **Autonom arbeiten** an definierten Aufgaben
 - Keine Unterbrechungen, keine Chat-Ausgaben
+- **Nach JEDER erledigten Aufgabe: Protokoll aktualisieren + sofort pushen**
 - Alle Zwischenstände sofort auf GitHub committen
 - Bei Blockern: kurze Notiz im Protokoll, dann weiter mit nächster Aufgabe
 
@@ -28,13 +29,34 @@ Maximale Autonomie bei gleichzeitig transparenter Dokumentation und rechtzeitige
 
 ### 13:00–13:45 Uhr — Fokusarbeit (45min)
 - Fortsetzung offener Aufgaben
-- Oder: Kleine, schnell erledigbare Tasks
+- **Nach JEDER erledigten Aufgabe: Protokoll aktualisieren + sofort pushen**
 
 ### 13:45–14:00 Uhr — Abschluss & Protokoll
 - Tagesprotokoll finalisieren
 - Alle Änderungen pushen
 - Offene Punkte für nächsten Tag notieren
 - Status-Update an Barbara (nur wenn nötig)
+
+---
+
+## Eigenkontrolle — Pflicht nach jeder Aktivität
+
+### Checkliste (MUSST du durchführen):
+- [ ] Aufgabe erledigt?
+- [ ] Protokoll SOFORT aktualisiert?
+- [ ] Auf GitHub gepusht?
+- [ ] Zeitstempel in Barbaras Zeitzone (Europe/Berlin)?
+
+### Wenn eine Checkbox fehlt:
+- Arbeit sofort unterbrechen
+- Fehlende Punkte nachholen
+- Erst dann weiterarbeiten
+
+### Rote Linien (NIEMALS vergessen):
+1. **Protokoll-Update nach JEDER Aufgabe**
+2. **Push auf GitHub nach JEDEM Commit**
+3. **Zeitangaben immer in Europe/Berlin**
+4. **Keine Aufgabe als "erledigt" markieren ohne Protokoll-Eintrag**
 
 ---
 
@@ -96,17 +118,36 @@ Maximale Autonomie bei gleichzeitig transparenter Dokumentation und rechtzeitige
 
 ---
 
+## Fehleranalyse 03.04.2025
+
+### Was schief ging:
+- Protokoll wurde erst am Tagesende aktualisiert
+- Zwischenstände nicht dokumentiert
+- 9 Stunden ohne Protokoll-Update
+
+### Konsequenzen:
+- Unklarer Arbeitsstand
+- Keine Nachvollziehbarkeit
+- Vertrauensverlust
+
+### Gegenmaßnahmen (ab sofort):
+- Strikte Eigenkontrolle nach jeder Aktivität
+- Keine Ausnahmen, keine Entschuldigungen
+- Bei Verstoß: sofortige Korrektur
+
+---
+
 ## Meine Selbsteinschätzung
 
 **Stärken:**
 - Schnelle technische Umsetzung
-- Dokumentation während der Arbeit
 - Git-Workflow verstanden
+- Lernfähig bei Fehlern
 
 **Verbesserungspotenzial:**
-- Weniger Chat, mehr Protokoll
+- Disziplin bei Protokollierung
 - Sofortiger Push nach jedem Commit
-- Klärung von Unklarheiten früher
+- Eigenkontrolle konsequent anwenden
 
 ---
 

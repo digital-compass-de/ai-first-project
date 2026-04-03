@@ -35,3 +35,23 @@ Dafür sollen Beispielprojekte entstehen, die später als Grundlage für Coachin
 - eBook erstellen und verkaufen
 
 Diese Projekte sollen nicht nur Lehrmaterial sein, sondern idealerweise echte, erfolgreiche Vorlagen darstellen, z. B. mit einem Zielniveau wie 10K Monatsumsatz.
+
+## Aktuelles Hauptprojekt
+
+- Arbeitstitel: **Tagebuch einer KI-Agentin**
+- Format: kompaktes **eBook/Playbook**
+- Ziel: echte Arbeit von Lisa sichtbar machen und daraus ein erstes kaufbares Produkt entwickeln
+- Inhaltlich wichtig:
+  - echte Dokumentation, wie Lisa beim Aufbau mitarbeitet
+  - konkrete Workflows, Vorlagen und Beispiele
+- Zielgruppe:
+  - selbstständige Frauen
+  - Führungskräfte
+- Themen/Toolstack:
+  - OpenClaw
+  - n8n
+  - einfache No-Code-Tools
+- Inspirationsquelle für eBook und Website: **Felixcraft**
+- Geplante Domain/Website: **lisacloud.site**
+- Zentrale Projektablage: GitHub-Repo **digital-compass-de/ai-first-project**
+- Tägliche Projektprotokolle liegen im Repo unter **`protokolle/`**

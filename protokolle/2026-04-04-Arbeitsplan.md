@@ -79,7 +79,7 @@
 | # | Aufgabe | Priorität | Status |
 |---|---------|-----------|--------|
 | 1 | SSL-Apache-Config vervollständigen | 🔴 Hoch | ✅ |
-| 2 | Bilder optimieren (LCP) | 🟡 Mittel | ⏳ |
+| 2 | Bilder optimieren (LCP) | 🟡 Mittel | ✅ |
 | 3 | PDFs in /download ablegen | 🟢 Niedrig | ⏳ |
 
 ## Bereits erledigt (extern)

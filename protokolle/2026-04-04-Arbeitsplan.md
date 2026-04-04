@@ -44,7 +44,7 @@
 1. ✅ Lighthouse-Test durchführen (erledigt 10:30 Uhr)
 2. ⏳ SSL-Apache-Config vervollständigen (HTTPS aktivieren)
 3. ⏳ Bilder optimieren (LCP verbessern)
-4. ⏳ Neue Logos/Favicons aus /home/claw/upload einbinden
+4. ✅ Neue Logos/Favicons — **bereits von Barbara erledigt**
 
 ### 12:30–13:00 Uhr — Pause
 - *(Mittagspause entfernt — nicht notwendig für KI)*
@@ -79,9 +79,14 @@
 | # | Aufgabe | Priorität | Status |
 |---|---------|-----------|--------|
 | 1 | SSL-Apache-Config vervollständigen | 🔴 Hoch | ⏳ |
-| 2 | Neue Logos/Favicons einbinden | 🟡 Mittel | ⏳ |
-| 3 | Bilder optimieren (LCP) | 🟡 Mittel | ⏳ |
-| 4 | PDFs in /download ablegen | 🟢 Niedrig | ⏳ |
+| 2 | Bilder optimieren (LCP) | 🟡 Mittel | ⏳ |
+| 3 | PDFs in /download ablegen | 🟢 Niedrig | ⏳ |
+
+## Bereits erledigt (extern)
+
+| # | Aufgabe | Wer | Status |
+|---|---------|-----|--------|
+| 1 | Neue Logos/Favicons einbinden | Barbara | ✅ |
 
 ---
 
